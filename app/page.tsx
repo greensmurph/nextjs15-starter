@@ -4,6 +4,7 @@ export default function Page() {
   return (
     <main>
       <h1>Test page</h1>
+      <p>Cached with Cloudflare!</p>
       <footer style={{ marginTop: '2rem', fontSize: '0.9em', color: '#888' }}>
         Page rendered at: {buildTime}
       </footer>
